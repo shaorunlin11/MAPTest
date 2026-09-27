@@ -1,0 +1,10 @@
+# Environment used for offline release validation, not an experiment lockfile.
+PyYAML==6.0.3
+openai==2.30.0
+tqdm==4.67.3
+javalang==0.13.0
+loguru==0.7.3
+networkx==3.4.2
+tree-sitter==0.25.2
+tree-sitter-java==0.23.5
+pytest==9.0.2

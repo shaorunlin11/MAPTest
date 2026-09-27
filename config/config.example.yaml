@@ -1,0 +1,71 @@
+# Copy to config/config.yaml for local customization. Never commit credentials.
+# MAPTEST_API_KEY, MAPTEST_BASE_URL, MAPTEST_MODEL, and JAVA_HOME override this file.
+api:
+  openai:
+    api_key: ""
+    base_url: "http://localhost:8000/v1"
+
+default_model:
+  provider: "openai"  # Any OpenAI-compatible endpoint; no model-name routing.
+  name: "qwen-turbo"
+  temperature: 0.2
+  top_p: 0.8
+  timeout: 120
+  max_retries: 3
+
+java:
+  home: ""  # Uses JAVA_HOME / AGENT_TESTER_JAVA_HOME; otherwise Java on PATH.
+  tool_options: "-Duser.language=en -Duser.country=US"
+
+maven:
+  compile_command: ["mvn", "test-compile", "-Dcheckstyle.skip=true"]
+  test_command: ["mvn", "test", "-Dcheckstyle.skip=true"]
+  fallback_command: ["mvn", "clean", "install"]
+  junit5:
+    compile_command: ["mvn", "test-compile", "-Dtest.engine=junit-jupiter", "-Dcheckstyle.skip=true"]
+    test_command: ["mvn", "test", "-Dtest.engine=junit-jupiter", "-Dcheckstyle.skip=true"]
+  timeout: 120
+
+paths:
+  base_dir: "."
+  repos_dir: "Repos"
+  repo_data_dir: "RepoData"
+  coverage_cal_dir: "CoverageCal"
+  tree_sitter_parser_dir: "tree_sitter_java_parser"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/MAPTest.log"
+  max_size: "10MB"
+  backup_count: 5
+
+testing:
+  default_junit_version: 4
+  max_test_methods: 10
+  enable_coverage: true
+  enable_intention_analysis: true
+  repair_max_rounds: 2
+  enable_preflight: true
+  enable_failure_classification: true
+  enable_java_version_detection: true
+
+initial_generation:
+  context_mode: "uml"
+
+output:
+  save_generated_tests: true
+  save_prompts: true
+  save_logs: true
+  result_format: "json"
+
+postprocessor_v2:
+  max_iterations: 8
+  max_no_gain_rounds: 4
+  stabilization_repair_attempt_limit: 1
+  patch_repair_attempt_limit: 2
+  maven_timeout_seconds: 120
+  target_line_coverage: 100.0
+  target_group_size: 3
+  max_plans_per_baseline: 16
+  max_failure_feedback_requirements: 3

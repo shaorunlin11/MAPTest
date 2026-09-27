@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.ps1 text eol=crlf
+*.gz binary
+*.pdf binary
+*.png binary
+
+# Preserve snapshot/checksum bytes across Windows and Linux checkouts.
+Repos/** -text
+RepoData/** -text

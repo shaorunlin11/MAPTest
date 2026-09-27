@@ -1,0 +1,25 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Apache Commons CLI,org.apache.commons.cli,PosixParser,70,264,15,37,14,55,11,22,0,7
+Apache Commons CLI,org.apache.commons.cli,MissingArgumentException,0,22,0,0,0,6,0,3,0,3
+Apache Commons CLI,org.apache.commons.cli,CommandLine,133,229,22,18,25,53,15,32,2,25
+Apache Commons CLI,org.apache.commons.cli,HelpFormatter,73,875,31,91,10,202,27,76,0,42
+Apache Commons CLI,org.apache.commons.cli,Option.Builder,34,63,2,4,10,22,8,10,6,9
+Apache Commons CLI,org.apache.commons.cli,DefaultParser,634,318,130,46,129,78,84,30,11,15
+Apache Commons CLI,org.apache.commons.cli,ParseException,0,4,0,0,0,2,0,1,0,1
+Apache Commons CLI,org.apache.commons.cli,Options,0,299,1,21,0,63,1,28,0,18
+Apache Commons CLI,org.apache.commons.cli,OptionValidator,42,45,7,9,3,11,6,6,1,3
+Apache Commons CLI,org.apache.commons.cli,Option,78,484,18,64,15,114,14,75,1,47
+Apache Commons CLI,org.apache.commons.cli,OptionBuilder,4,142,0,4,1,62,1,22,1,20
+Apache Commons CLI,org.apache.commons.cli,Parser,172,226,40,36,40,66,28,23,2,11
+Apache Commons CLI,org.apache.commons.cli,HelpFormatter.OptionComparator,0,6,0,0,0,1,0,1,0,1
+Apache Commons CLI,org.apache.commons.cli,Util,24,38,6,8,2,10,5,5,1,2
+Apache Commons CLI,org.apache.commons.cli,PatternOptionBuilder,11,157,4,40,2,49,5,26,1,4
+Apache Commons CLI,org.apache.commons.cli,UnrecognizedOptionException,0,14,0,0,0,6,0,3,0,3
+Apache Commons CLI,org.apache.commons.cli,AmbiguousOptionException,0,61,0,4,0,16,0,5,0,3
+Apache Commons CLI,org.apache.commons.cli,CommandLine.Builder,0,23,0,0,0,7,0,4,0,4
+Apache Commons CLI,org.apache.commons.cli,BasicParser,0,5,0,0,0,2,0,2,0,2
+Apache Commons CLI,org.apache.commons.cli,GnuParser,0,145,0,20,0,28,0,12,0,2
+Apache Commons CLI,org.apache.commons.cli,AlreadySelectedException,0,35,0,0,0,9,0,4,0,4
+Apache Commons CLI,org.apache.commons.cli,MissingOptionException,0,56,0,6,0,15,0,7,0,4
+Apache Commons CLI,org.apache.commons.cli,OptionGroup,0,130,1,13,0,35,1,15,0,9
+Apache Commons CLI,org.apache.commons.cli,TypeHandler,55,140,11,9,14,31,10,11,3,8

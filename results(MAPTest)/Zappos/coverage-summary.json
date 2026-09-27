@@ -1,0 +1,31 @@
+﻿{
+    "project_name":  "Modules_Zappos_zappos-json",
+    "project_dir":  "c:\\Users\\lenovo\\Desktop\\AgentTester v2 (uml)\\CoverageCal\\final_result_modules\\Modules_Zappos_zappos-json",
+    "test_file_count":  140,
+    "jacoco_xml":  "c:\\Users\\lenovo\\Desktop\\AgentTester v2 (uml)\\CoverageCal\\final_result_modules\\Modules_Zappos_zappos-json\\target\\site\\jacoco\\jacoco.xml",
+    "line_coverage":  {
+                          "missed":  782,
+                          "covered":  723,
+                          "total":  1505,
+                          "percentage":  48.04
+                      },
+    "branch_coverage":  {
+                            "missed":  473,
+                            "covered":  256,
+                            "total":  729,
+                            "percentage":  35.12
+                        },
+    "class_coverage":  {
+                           "missed":  3,
+                           "covered":  32,
+                           "total":  35,
+                           "percentage":  91.43
+                       },
+    "method_coverage":  {
+                            "missed":  80,
+                            "covered":  175,
+                            "total":  255,
+                            "percentage":  68.63
+                        },
+    "note":  "Coverage generated with test failures ignored; some tests fail under current JDK/runtime compatibility."
+}

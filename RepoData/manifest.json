@@ -1,0 +1,87 @@
+{
+  "description": "Prepared local Java benchmark snapshots; no experiment results or generated tests.",
+  "dataset_count": 8,
+  "focal_method_count": 3374,
+  "datasets": [
+    {
+      "id": "Cli-40f",
+      "focal_methods": 177,
+      "pom_version": "1.5-SNAPSHOT",
+      "defects4j_version_id": "40f",
+      "git_commit": null,
+      "source": "Repos/Cli-40f",
+      "metadata": "RepoData/Cli-40f.json",
+      "metadata_sha256": "5ac656de761a09fe7d30a52cdc712450a1a7d7fef27883a329f5dbccf7fb6693"
+    },
+    {
+      "id": "Codec-18f",
+      "focal_methods": 386,
+      "pom_version": "1.11-SNAPSHOT",
+      "defects4j_version_id": "18f",
+      "git_commit": null,
+      "source": "Repos/Codec-18f",
+      "metadata": "RepoData/Codec-18f.json",
+      "metadata_sha256": "1aab5d7199bce9ec25155120b2529bf113cefaffead594dd36509c1075fd66cc"
+    },
+    {
+      "id": "Csv-16f",
+      "focal_methods": 117,
+      "pom_version": "1.6-SNAPSHOT",
+      "defects4j_version_id": "16f",
+      "git_commit": null,
+      "source": "Repos/Csv-16f",
+      "metadata": "RepoData/Csv-16f.json",
+      "metadata_sha256": "6c0c6eb17df2d68f3caed1cf1d522a52dcaa652fa6ded8cfb609ef6b4870bfde"
+    },
+    {
+      "id": "JacksonCore-26f",
+      "focal_methods": 1620,
+      "pom_version": "2.10.0-SNAPSHOT",
+      "defects4j_version_id": "26f",
+      "git_commit": null,
+      "source": "Repos/JacksonCore-26f",
+      "metadata": "RepoData/JacksonCore-26f.json",
+      "metadata_sha256": "e439679ad0e37502bccc7da29a07d3ce65533d3d6f6da112969008e648ed7f73"
+    },
+    {
+      "id": "humaneval-test-original",
+      "focal_methods": 168,
+      "pom_version": "1.0-SNAPSHOT",
+      "defects4j_version_id": null,
+      "git_commit": null,
+      "source": "Repos/humaneval-test-original",
+      "metadata": "RepoData/humaneval-test-original.json",
+      "metadata_sha256": "9eb686682e1be53318583c5ec926bf959fce286c0dc52203ba18ce2a69e9158c"
+    },
+    {
+      "id": "sachin-handiekar_jInstagram",
+      "focal_methods": 542,
+      "pom_version": "1.2.3-SNAPSHOT",
+      "defects4j_version_id": null,
+      "git_commit": null,
+      "source": "Repos/sachin-handiekar_jInstagram",
+      "metadata": "RepoData/sachin-handiekar_jInstagram.json",
+      "metadata_sha256": "6622df8a17a1a39d87b53c8f99a3c44b0786f6b056be1157c222ee93f4904ddc"
+    },
+    {
+      "id": "tabulapdf_tabula-java",
+      "focal_methods": 223,
+      "pom_version": "1.0.6-SNAPSHOT",
+      "defects4j_version_id": null,
+      "git_commit": null,
+      "source": "Repos/tabulapdf_tabula-java",
+      "metadata": "RepoData/tabulapdf_tabula-java.json",
+      "metadata_sha256": "7f882205bf7e71bb4d2b5af6d84b481fb5e1113d6adc810549f0ed393e746b77"
+    },
+    {
+      "id": "Zappos_zappos-json",
+      "focal_methods": 141,
+      "pom_version": "0.1-alpha",
+      "defects4j_version_id": null,
+      "git_commit": null,
+      "source": "Repos/Zappos_zappos-json",
+      "metadata": "RepoData/Zappos_zappos-json.json",
+      "metadata_sha256": "37618140f8b359b20dd5711bca6d014b0e2da0e056d838275cc9077c3dcd37c8"
+    }
+  ]
+}

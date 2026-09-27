@@ -1,0 +1,35 @@
+# Local configuration / credentials
+/config/config.yaml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / editors
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs and generated tests (not benchmark inputs)
+logs/
+*.log
+**/experiment_results/
+/CoverageCal/results/
+/CoverageCal/workdirs/
+**/target/
+**/classpath.txt
+/Repos/*/src/test/java/
+/maptest/modules/java2plantuml/plantuml_result/
+
+# Draft result files; curated results(MAPTest)/ artifacts remain trackable.
+/results/raw/
+/results/tmp/
+/results(MAPTest)/raw/
+/results(MAPTest)/tmp/

@@ -1,0 +1,64 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Tabula,technology.tabula.json,TableSerializer,101,0,4,0,19,0,4,0,2,0
+Tabula,technology.tabula.json,RectangularTextContainerSerializer,40,0,0,0,8,0,2,0,2,0
+Tabula,technology.tabula.extractors,SpreadsheetExtractionAlgorithm.PolygonVertex,31,22,2,2,4,7,4,2,2,2
+Tabula,technology.tabula.extractors,BasicExtractionAlgorithm.new Comparator() {...},12,0,0,0,2,0,2,0,2,0
+Tabula,technology.tabula.extractors,BasicExtractionAlgorithm.new Comparator() {...},14,0,0,0,2,0,2,0,2,0
+Tabula,technology.tabula.extractors,SpreadsheetExtractionAlgorithm,199,674,33,57,43,126,21,35,0,11
+Tabula,technology.tabula.extractors,BasicExtractionAlgorithm,382,17,44,0,75,7,25,3,3,3
+Tabula,technology.tabula.extractors,SpreadsheetExtractionAlgorithm.Direction,0,24,0,0,0,3,0,1,0,1
+Tabula,technology.tabula.debug,Debug,997,197,55,19,176,48,44,13,12,8
+Tabula,technology.tabula,QuickSort.new Comparator() {...},0,8,0,0,0,2,0,2,0,2
+Tabula,technology.tabula,Rectangle,1,475,5,25,0,69,5,34,0,24
+Tabula,technology.tabula,CellPosition,66,0,12,0,12,0,10,0,4,0
+Tabula,technology.tabula,ProjectionProfile,572,134,52,8,99,18,36,7,9,4
+Tabula,technology.tabula,RectangularTextContainer,65,32,3,1,10,8,6,3,4,3
+Tabula,technology.tabula,Rectangle.new Comparator() {...},11,31,3,5,0,7,2,4,0,2
+Tabula,technology.tabula,Utils,41,752,14,78,5,129,13,52,1,18
+Tabula,technology.tabula,CohenSutherlandClipping,20,227,3,25,0,37,3,16,0,5
+Tabula,technology.tabula,Line,106,94,8,6,21,16,7,8,3,5
+Tabula,technology.tabula,QuickSort,14,169,1,13,4,38,1,13,0,7
+Tabula,technology.tabula,CommandLineApp.TableExtractor,139,40,17,0,31,15,14,4,5,4
+Tabula,technology.tabula,PageIterator,7,34,1,1,3,11,1,4,0,4
+Tabula,technology.tabula,TextElement,173,509,47,53,30,108,37,27,1,13
+Tabula,technology.tabula,PageDims,0,35,0,0,0,11,0,6,0,6
+Tabula,technology.tabula,Pair,0,15,0,0,0,6,0,3,0,3
+Tabula,technology.tabula,CommandLineApp.DebugOutput,16,0,2,0,6,0,3,0,2,0
+Tabula,technology.tabula,Cell,53,64,7,1,10,17,4,8,0,8
+Tabula,technology.tabula,Ruling.new Object() {...},0,12,0,0,0,5,0,1,0,1
+Tabula,technology.tabula,Ruling.new Comparator() {...},0,11,0,0,0,2,0,2,0,2
+Tabula,technology.tabula,TextChunk,515,408,98,28,98,86,61,21,5,14
+Tabula,technology.tabula,ObjectExtractorStreamEngine.PointComparator,46,6,8,0,13,1,5,1,1,1
+Tabula,technology.tabula,Ruling.new Comparator() {...},20,54,8,10,4,9,6,5,0,2
+Tabula,technology.tabula,Ruling.new Comparator() {...},0,37,0,8,0,6,0,6,0,2
+Tabula,technology.tabula,Ruling.SOType,0,34,0,0,0,1,0,1,0,1
+Tabula,technology.tabula,RectangleSpatialIndex,13,95,3,1,3,13,2,5,0,5
+Tabula,technology.tabula,TextStripper,280,52,48,0,54,17,27,6,3,6
+Tabula,technology.tabula,Utils.new AbstractList() {...},0,21,0,0,0,3,0,3,0,3
+Tabula,technology.tabula,CommandLineApp,574,372,57,19,126,98,45,14,8,11
+Tabula,technology.tabula,Table,126,45,11,1,22,15,12,6,6,6
+Tabula,technology.tabula,CommandLineApp.new FilenameFilter() {...},10,0,0,0,2,0,2,0,2,0
+Tabula,technology.tabula,ObjectExtractorStreamEngine,217,221,33,7,59,57,30,12,9,12
+Tabula,technology.tabula,Ruling.new Comparator() {...},1,22,1,1,0,3,1,2,0,2
+Tabula,technology.tabula,Utils.new Comparator() {...},0,9,0,0,0,2,0,2,0,2
+Tabula,technology.tabula,TableWithRulingLines.new Comparator() {...},11,0,0,0,2,0,2,0,2,0
+Tabula,technology.tabula,Utils.new Comparator() {...},0,9,0,0,0,2,0,2,0,2
+Tabula,technology.tabula,Page.Builder,0,79,0,0,0,22,0,12,0,12
+Tabula,technology.tabula,CommandLineApp.OutputFormat,0,57,0,2,0,9,0,3,0,2
+Tabula,technology.tabula,CommandLineApp.ExtractionMethod,0,34,0,0,0,4,0,1,0,1
+Tabula,technology.tabula,CohenSutherlandClipping.Point,0,70,0,10,0,11,0,8,0,3
+Tabula,technology.tabula,Ruling,83,865,30,104,15,159,27,80,0,39
+Tabula,technology.tabula,TextChunk.DirectionalityOptions,0,34,0,0,0,2,0,1,0,1
+Tabula,technology.tabula,ObjectExtractor,14,128,4,4,3,31,4,6,0,6
+Tabula,technology.tabula,TableWithRulingLines,199,0,16,0,48,0,11,0,3,0
+Tabula,technology.tabula,Page,195,353,16,12,36,86,24,22,13,19
+Tabula,technology.tabula.writers,CSVWriter,76,0,6,0,18,0,7,0,4,0
+Tabula,technology.tabula.writers,TSVWriter,4,0,0,0,2,0,1,0,1,0
+Tabula,technology.tabula.writers,JSONWriter.new ExclusionStrategy() {...},13,0,2,0,3,0,4,0,3,0
+Tabula,technology.tabula.writers,JSONWriter,65,0,2,0,17,0,6,0,5,0
+Tabula,technology.tabula.detectors,NurminenDetectionAlgorithm.RelevantEdges,9,0,0,0,4,0,1,0,1,0
+Tabula,technology.tabula.detectors,NurminenDetectionAlgorithm.TextEdge,10,0,0,0,3,0,1,0,1,0
+Tabula,technology.tabula.detectors,NurminenDetectionAlgorithm.new Comparator() {...},36,0,8,0,11,0,6,0,2,0
+Tabula,technology.tabula.detectors,SpreadsheetDetectionAlgorithm,0,21,0,0,0,6,0,2,0,2
+Tabula,technology.tabula.detectors,NurminenDetectionAlgorithm,1981,0,234,0,391,0,134,0,16,0
+Tabula,technology.tabula.detectors,NurminenDetectionAlgorithm.TextEdges,16,0,0,0,5,0,1,0,1,0
