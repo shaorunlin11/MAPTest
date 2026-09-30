@@ -69,9 +69,25 @@ python CoverageCal/maptest_pipeline_final_coverage.py --project Cli-40f
 Reports are written to `CoverageCal/results/`. Add `--offline` if Maven dependencies
 are already cached. This command replays new stage outputs, not the saved snapshots.
 
-[Saved experiments](results%28MAPTest%29/README.md) contain generated Java tests;
-[coverage reports](results%28MAPTest%29/reports/README.md) provide the existing
+[Saved experiments](results-maptest/) contain generated Java tests;
+[coverage reports](results-maptest/reports/README.md) provide the existing
 JaCoCo CSV/XML results.
+
+## Main-experiment JaCoCo reports
+
+[results-main-jacoco/](results-main-jacoco/) contains the per-subject JaCoCo
+report pages for the three compared systems (MAPTest, KTester, and Panta) under
+the shared Qwen-turbo backbone, one page per benchmark subject:
+
+```text
+results-main-jacoco/<System>/<subject>.html
+```
+
+Subjects: `cli`, `csv`, `codec`, `jacksoncore`, `humaneval`, `jinstagram`,
+`tabula`, and `zappos`. These pages are the index pages of the JaCoCo HTML
+reports and contain the per-subject class, method, line, and branch coverage
+totals for the main comparison in the paper; package- and class-level
+drill-down pages and report assets are not included.
 
 ## Repository layout
 
@@ -81,7 +97,8 @@ Repos/                   Benchmark source snapshots
 RepoData/                Focal-method metadata, manifest, and checksums
 CoverageCal/             Coverage replay tools
 config/                  Example configuration
-results(MAPTest)/        Saved tests and coverage results
+results-maptest/         Saved tests and coverage results
+results-main-jacoco/     JaCoCo report pages for the main comparison
 tree_sitter_java_parser/  Optional metadata extraction
 run.py                   Entry point
 ```
